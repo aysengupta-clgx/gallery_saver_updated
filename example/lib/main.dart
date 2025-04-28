@@ -1,13 +1,4 @@
-import 'dart:io';
-import 'dart:typed_data';
-import 'dart:ui' as ui;
-
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'package:flutter/services.dart';
-import 'package:gallery_saver_updated/gallery_saver.dart';
-import 'package:image_picker/image_picker.dart';
-import 'package:path_provider/path_provider.dart';
 
 double textSize = 20;
 
@@ -54,6 +45,7 @@ class _MyAppState extends State<MyApp> {
               ),
               ScreenshotWidget(),
               Flexible(
+                flex: 1,
                 child: Container(
                     child: SizedBox.expand(
                   child: TextButton(
@@ -66,7 +58,6 @@ class _MyAppState extends State<MyApp> {
                             fontSize: textSize, color: Colors.blueGrey)),
                   ),
                 )),
-                flex: 1,
               )
             ],
           ),

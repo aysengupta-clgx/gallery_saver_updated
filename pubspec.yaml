@@ -1,6 +1,6 @@
 name: gallery_saver_updated
 description: Saves images and videos from network or temporary file to external storage. Both images and videos will be visible in Android Gallery and iOS Photos.
-version: 3.0.0
+version: 3.0.1
 homepage: https://corp.artisan.inc/
 
 environment:
@@ -13,9 +13,9 @@ module:
 dependencies:
   flutter:
     sdk: flutter
-  path_provider: ^2.1.1
-  http: ^1.1.0
-  path: ^1.8.3
+  path_provider:
+  http:
+  path:
 
 dev_dependencies:
   flutter_test:
